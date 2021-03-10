@@ -11,13 +11,13 @@
 
 # How it Works ? 
 
-pacman -S i3 i3blocks dmenu lm_sensors nitrogen
+<strong>pacman</strong> -S `i3` `i3blocks` `dmenu` `lm_sensors` `nitrogen` `termite` 
 
 yaourt -S ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf terminus-font lemonbar-git i3-gaps-git
 	
-$ git clone git://github.com/tobi-wan-kenobi/bumblebee-status
+$ git clone git://github.com/wolf-project/DotfilesLinux
 
-$ unzip bumblebee-status.zip
+$ unzip DotfilesLinux.zip
 
 Move to you directorie <strong> /home/your-user/.config/i3/ </strong>  or <strong>/root/.config/i3/</strong>
 
