@@ -1,13 +1,15 @@
 <pre id="taag_font_DeltaCorpsPriest1" style="float:left;" class="fig-ansi" contenteditable="true"> </pre>
 
 ![License](https://img.shields.io/github/license/wolf-project/DotfilesLinux)
-# My Arch Linux Dotfiles - i3WM,Bumblebee_status,nitrogen and Termite
+# My Arch Linux Dotfiles
+## i3WM,Bumblebee_status,nitrogen and Termite
 
 
-![I3][screenshot1]
+![I3][screenshot1] https://github.com/wolf-project/DotfilesLinux/blob/master/Screenshots/2021-03-10-195310_1366x768_scrot.png
+![I3][screenshot2]
 
 [screenshot1]:https://github.com/wolf-project/DotfilesLinux/blob/master/Screenshots/2021-03-10-195310_1366x768_scrot.png
-
+[screenshot2]
 
 # How it Works ? 
 
@@ -31,4 +33,17 @@ Edit the i3 configuration (config) on /home/your-user/.config/config or /root/.c
 	status_command = <path to bumblebee-status/bumblebee-status> -m <list of modules> -p <list of module parameters> -t <theme>
 	}
 </strong>
+
+# Usage
+## Normal usage
+In your i3wm configuration, modify the *status_command* for your i3bar like this:
+
+```bash
+bar {
+	status_command <path to bumblebee-status/bumblebee-status> \
+		-m <list of modules> \
+		-p <list of module parameters> \
+		-t <theme>
+}
+```
 
