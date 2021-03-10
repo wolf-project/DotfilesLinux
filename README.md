@@ -3,6 +3,7 @@
 ![License](https://img.shields.io/github/license/wolf-project/DotfilesLinux)
 # My Arch Linux Dotfiles - i3WM,Bumblebee_status,nitrogen and Termite
 
+
 ![I3][screenshot1]
 
 [screenshot1]:https://github.com/wolf-project/DotfilesLinux/blob/master/Screenshots/2021-03-10-195310_1366x768_scrot.png
@@ -31,12 +32,3 @@ Edit the i3 configuration (config) on /home/your-user/.config/config or /root/.c
 	}
 </strong>
 
-# Got a problem ? 
-
-	Please, submit a issue.
-	E-mail wolfsecurity@protonmail.com
-	Facebook www.facebook.com/ConsuegraVictor
-	
-# Bumblebee_status - credits	
-	Bumblebee_status author git://github.com/tobi-wan-kenobi/
-	Check the code ! 

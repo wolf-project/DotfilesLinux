@@ -1,11 +1,11 @@
-#Thats my config for i3wm please check out the old version
-# Started at 09/03/21
+#Thats my config for i3wm on ArchLinux_x64 6GB ram, Intel Celeron 1.5ghz
+# File update at 09/03/21
 
-#My keyis ALT
+#My special key is ALT
 
 set $mod Mod1
 
-#Fonte da barra de status
+#Status bar font
 font pango:monospace 8
 #font pango:FantasqueSansMono-Regular.ttf 9
 
@@ -29,6 +29,9 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec termite
+
+#Start firefox
+bindsym $mod+Shift+f exec firefox
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -178,28 +181,14 @@ new_window pixel
 new_float normal
 
 
-#Esconder bordas nas janelas únicas
-
+#Hide windows borders for termite
 hide_edge_borders true
 
-
-# Theme colors
-#class                  border   backgr.  text  indicator
-client.focused          #7f8f9f #C0C0C0 #000000 #cad0c4
-client.focused_inactive #000000 #161616 #2D2D2D
-client.unfocused        #000000 #161616 #605e56
-client.urgent           #a5a5a5 #a5a5a5 #1E1E1E
-client.background       #161616
-
-#Executa o comando para mudar layout de teclado
-
-#setxkbmap -model abnt2 -layout br -variant abnt2
-
-# Inicia o compton, para ajustar a transparência do terminal
+# Start compton to adjust a transparency for termite terminal
 
 exec --no-startup-id compton &
 
-# Ajusta o último Wallpaper configurado
+# Load the last wallpaper configured
 
 exec --no-startup-id nitrogen --restore
 
