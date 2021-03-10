@@ -1,6 +1,6 @@
 <pre id="taag_font_DeltaCorpsPriest1" style="float:left;" class="fig-ansi" contenteditable="true"> </pre>
 
-![License](https://img.shields.io/github/license/tobi-wan-kenobi/bumblebee-status)
+![License](https://img.shields.io/github/license/wolf-project/DotfilesLinux)
 # My Arch Linux Dotfiles - i3WM,Bumblebee_status,nitrogen and Termite
 
 ![I3][screenshot1]
