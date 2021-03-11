@@ -13,17 +13,18 @@
 
 # How it Works ? 
 
-<strong>pacman -S</strong>`i3` `i3blocks` `dmenu` `lm_sensors` `nitrogen` `termite` 
+<strong>pacman -S</strong>  `i3` `i3blocks` `dmenu` `lm_sensors` `nitrogen` `termite` 
 
-<strong>yaourt -S</strong>`ttf-inconsolata` `ttf-font-awesome` `ttf-dejavu` `terminus-font-ttf` `terminus-font` `lemonbar-git` `i3-gaps-git`
+<strong>yaourt -S</strong>  `ttf-inconsolata` `ttf-font-awesome` `ttf-dejavu` `terminus-font-ttf` `terminus-font` `lemonbar-git` `i3-gaps-git`
 	
-$ git clone git://github.com/wolf-project/DotfilesLinux
+$ git clone <strong>git://github.com/wolf-project/DotfilesLinux</strong>
 
-$ unzip DotfilesLinux.zip
+$ unzip DotfilesLinux.zip /home/you-user-where/.config/i3/
 
-Move to you directorie <strong> /home/your-user/.config/i3/ </strong>  or <strong>/root/.config/i3/</strong>
 
-Edit the i3 configuration (config) on /home/your-user/.config/config or /root/.config/i3/config
+Move to you directorie the folder bumblebee-status <strong> /home/your-user/.config/i3/ </strong>  or <strong>/root/.config/i3/</strong>
+
+Edit the i3 configuration (config) on /home/your-user/.config/config
   
   add this command on you i3 "config" 
   
@@ -47,4 +48,10 @@ bar {
 }
 ```
 
+# Available themes
+
+https://bumblebee-status.readthedocs.io/en/main/themes.html
+
+Check the original code issues.
+Credits: [List of themes]<strong>(https://github.com/tobi-wan-kenobi)</strong>
 
