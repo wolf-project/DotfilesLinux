@@ -22,7 +22,7 @@ $ git clone <strong>git://github.com/wolf-project/DotfilesLinux</strong>
 $ unzip DotfilesLinux.zip /home/you-user-where/.config/i3/
 
 
-Move to you directorie the folder bumblebee-status <strong> /home/your-user/.config/i3/ </strong>  or <strong>/root/.config/i3/</strong>
+Move to you directorie the folder bumblebee-status <strong> /home/your-user/.config/i3/ </strong>
 
 Edit the i3 configuration (config) on /home/your-user/.config/config
   
@@ -49,10 +49,9 @@ bar {
 ```
 
 # Available themes
+## Check the original code issues.
 
-[List of themes]:https://bumblebee-status.readthedocs.io/en/main/themes.html
+[List of themes](https://bumblebee-status.readthedocs.io/en/main/themes.html)
 
-Check the original code issues.
-
-[Credits]:https://github.com/tobi-wan-kenobi
+[Credits](https://github.com/tobi-wan-kenobi)
 
