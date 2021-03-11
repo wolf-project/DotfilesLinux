@@ -7,7 +7,7 @@
 ![I3][screenshot2]
 
 [screenshot1]:https://github.com/wolf-project/DotfilesLinux/blob/master/Screenshots/2021-03-10-195310_1366x768_scrot.png
-[screenshot2]:https://github.com/wolf-project/DotfilesLinux/blob/master/Screenshots/Arch-logo.png
+[screenshot2]:https://github.com/wolf-project/DotfilesLinux/blob/master/Screenshots/Arch.logo.png
 
 # How it Works ? 
 
