@@ -1,4 +1,3 @@
-#LICENSE MIT for code
 ![License](https://img.shields.io/github/license/wolf-project/DotfilesLinux)
 
 # My Arch Linux Dotfiles
