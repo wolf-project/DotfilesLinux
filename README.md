@@ -1,4 +1,6 @@
+#LICENSE MIT for code
 ![License](https://img.shields.io/github/license/wolf-project/DotfilesLinux)
+
 # My Arch Linux Dotfiles
 ## i3WM,Bumblebee_status,nitrogen and Termite
 
@@ -11,9 +13,9 @@
 
 # How it Works ? 
 
-<strong>pacman</strong> -S `i3` `i3blocks` `dmenu` `lm_sensors` `nitrogen` `termite` 
+<strong>pacman -S</strong>`i3` `i3blocks` `dmenu` `lm_sensors` `nitrogen` `termite` 
 
-yaourt -S `ttf-inconsolata` `ttf-font-awesome` `ttf-dejavu` `terminus-font-ttf` `terminus-font` `lemonbar-git` `i3-gaps-git`
+<strong>yaourt -S</strong>`ttf-inconsolata` `ttf-font-awesome` `ttf-dejavu` `terminus-font-ttf` `terminus-font` `lemonbar-git` `i3-gaps-git`
 	
 $ git clone git://github.com/wolf-project/DotfilesLinux
 
@@ -44,4 +46,5 @@ bar {
 		-t <theme>
 }
 ```
+
 
