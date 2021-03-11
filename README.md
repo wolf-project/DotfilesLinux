@@ -50,8 +50,9 @@ bar {
 
 # Available themes
 
-https://bumblebee-status.readthedocs.io/en/main/themes.html
+[List of themes]:https://bumblebee-status.readthedocs.io/en/main/themes.html
 
 Check the original code issues.
-Credits: [List of themes]<strong>(https://github.com/tobi-wan-kenobi)</strong>
+
+[Credits]:https://github.com/tobi-wan-kenobi
 
