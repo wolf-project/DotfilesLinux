@@ -1,5 +1,3 @@
-<pre id="taag_font_DeltaCorpsPriest1" style="float:left;" class="fig-ansi" contenteditable="true"> </pre>
-
 ![License](https://img.shields.io/github/license/wolf-project/DotfilesLinux)
 # My Arch Linux Dotfiles
 ## i3WM,Bumblebee_status,nitrogen and Termite
@@ -15,7 +13,7 @@
 
 <strong>pacman</strong> -S `i3` `i3blocks` `dmenu` `lm_sensors` `nitrogen` `termite` 
 
-yaourt -S ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf terminus-font lemonbar-git i3-gaps-git
+yaourt -S `ttf-inconsolata` `ttf-font-awesome` `ttf-dejavu` `terminus-font-ttf` `terminus-font` `lemonbar-git` `i3-gaps-git`
 	
 $ git clone git://github.com/wolf-project/DotfilesLinux
 
